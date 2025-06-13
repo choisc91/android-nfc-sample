@@ -98,12 +98,14 @@ kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "ko
 
 ## 🧩 App Structure
 
-📁 app/
-┣ 📄 MainActivity.kt # NFC read/write dispatch and lifecycle control
-┣ 📄 ReadTagDataSource.kt # Parses NDEF messages from incoming tags
-┣ 📄 WriteTagDataSource.kt # Writes NDEF or formats NdefFormatable tags
-┣ 📄 BuildMain.kt # Jetpack Compose UI for read/write input
-┣ 📄 BuildWriteProgress.kt # Optional write-mode progress indicator
+```text
+app/
+├── MainActivity.kt           # NFC read/write dispatch and lifecycle control
+├── ReadTagDataSource.kt      # Parses NDEF messages from incoming tags
+├── WriteTagDataSource.kt     # Writes NDEF or formats NdefFormatable tags
+├── BuildMain.kt              # Jetpack Compose UI for read/write input
+├── BuildWriteProgress.kt     # Optional write-mode progress indicator
+```
 
 ---
 
